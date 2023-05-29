@@ -1,12 +1,25 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import 'react-toastify/dist/ReactToastify.css';
 import '../styles/globals.scss';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-
+import { StoreProvider } from '../utils/Store';
+import PageTransitions from '../components/PageTransitions';
+import { useRouter } from 'next/router';
 
 export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
-  }, []);
+  const router = useRouter();
 
-  return <Component {...pageProps} />
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap.js');
+  }, []);
+  
+  return (
+    <StoreProvider>
+      <PageTransitions 
+        route={router.asPath}
+      >      
+        <Component {...pageProps} />
+      </PageTransitions>
+    </StoreProvider>
+  )
 }

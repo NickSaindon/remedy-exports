@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 function Layout({ title, description, children}) {
@@ -10,9 +12,11 @@ function Layout({ title, description, children}) {
       <title>{title ? `${title} - Remedy Exports` : 'Remedy Exports'}</title>
         {description && <meta name="description" content={description}></meta>}
       </Head>
+      <Navbar />
         <div>
             { children }
         </div>
+        <Footer />
     </div>
   );
 }
