@@ -51,11 +51,11 @@ function Navbar() {
                   About  
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/news" className={router.asPath == "/news" ? "nav-link active" : "nav-link"}>
                   News  
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item" >
               <Link href="/contact" className={router.asPath == "/contact" ? "nav-link active" : "nav-link"}>
                   Contact  

@@ -81,7 +81,7 @@ const About = () => {
   return (
     <Layout 
       title="About Page"
-      description="Remedy Exports is a sourcing and exporter of wholesale raw materials for Asian produce from Thailand to US and Europe vendors.  We handle logistics from farm to exportation.">
+      description="Find out all about Remedy Exports and what we have to offer for your business.  We have the Remedy when it comes to Thai botanicals.">
       <div className="about-container">
         <div className="page-header">
           <div className="header-circle1" />
@@ -121,7 +121,7 @@ const About = () => {
                 this industry in a way that is safe and profitable for all.    
                 <br/><br/>
                 Remedy Exports has partnered and works with over <b>30 plantations</b> in Thailand that produce a wide varity of botanicals, some of which only grow in Thailand or Southeast Asia.  Our company is dedicated to
-                to quality and consistency and work with our clients to supply them with the raw materials or finished products their company needs.  We make the process easy and as straightforward   
+                quality and consistency and work with our clients to supply them with the raw materials, extracts, or finished products their company needs.  We work to make the process as easy as possible, and straightforward so our clients get what they need.   
               </p>
             </div>
           </section>

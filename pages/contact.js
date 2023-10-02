@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <Layout 
       title="Contact Page"
-      description="Remedy Exports is a sourcing and exporter of wholesale raw materials for Asian produce from Thailand to US and Europe vendors.  We handle logistics from farm to exportation.">
+      description="Contact Remedy Exports today and lets get started supplying your business with high quality botanicales for your business">
       <div className="contact-container">
         <ToastContainer 
           position="top-center" 
@@ -81,7 +81,6 @@ const Contact = () => {
                 </div>
               </div>
               <div className="header-circle3" />
-
             </div>
           </div>
         <div className="contact-form">
@@ -194,7 +193,7 @@ const Contact = () => {
                       className={`form-control ${errors.message ? 'is-invalid' : ''}`}
                       id="message" 
                       placeholder="Message goes here" 
-                      row="5"
+                      rows="5"
                       {...field}
                     ></textarea>
 
