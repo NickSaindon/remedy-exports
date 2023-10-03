@@ -57,7 +57,7 @@ const Contact = () => {
     <Layout 
       title="Contact Page"
       description="Contact Remedy Exports today and lets get started supplying your business with high quality botanicales for your business">
-      <div className="contact-container">
+      <div id="page" className="contact-container">
         <ToastContainer 
           position="top-center" 
           draggable={false} 
@@ -69,11 +69,10 @@ const Contact = () => {
           <div className="page-header">
             <div className="py-5 container header-container">
             <div className="contact-header-img" />
-
             <div className="header-circle1" />
           <div className="header-circle2" />
               <div className="row py-lg-5">
-                <div className="contact-text col-lg-12 mx-auto text-center">
+                <div className="contact-text col-lg-12 text-center">
                   <h1>Have Any</h1>
                   <h1>Questions?</h1>
                   <p>Have questions about Remedy Exports then send us a message and we will get back to you.</p>

@@ -82,11 +82,11 @@ const About = () => {
     <Layout 
       title="About Page"
       description="Find out all about Remedy Exports and what we have to offer for your business.  We have the Remedy when it comes to Thai botanicals.">
-      <div className="about-container">
+      <div id="page" className="about-container">
         <div className="page-header">
-          <div className="header-circle1" />
-          <div className="header-circle2" />
           <div className="py-5 container header-container">
+                      <div className="header-circle1" />
+          <div className="header-circle2" />
             <div className="container-img" />
             <div className="row py-lg-5">
               <div className="col-lg-12 about-text text-center">
@@ -117,7 +117,7 @@ const About = () => {
                 is to maintain a high quality standard from plantation to consumer through mutual goals in quality.
                 <br/><br/> 
                 Another goal of Remedy Exports is to help meet the needs of all the clients we work with. We do this by over-seeing the end-to-end production, 
-                from farm, factory, exportation Remedy handles every step of the process from raw materials to finished products.  By partnering with our clients we look to create a process that will standardizes
+                from farm, factory, and exportation. Remedy handles every step of the process from raw materials to finished products.  By partnering with our clients we look to create a process that will standardize
                 this industry in a way that is safe and profitable for all.    
                 <br/><br/>
                 Remedy Exports has partnered and works with over <b>30 plantations</b> in Thailand that produce a wide varity of botanicals, some of which only grow in Thailand or Southeast Asia.  Our company is dedicated to
