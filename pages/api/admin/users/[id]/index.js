@@ -40,7 +40,7 @@ handler.delete(async (req, res) => {
   await db.connect();
   const user = await User.findById(req.query.id);
   if (user) {
-    await user.remove();
+    await user.deleteOne();
     await db.disconnect();
     res.send({ message: 'User Deleted' });
   } else {

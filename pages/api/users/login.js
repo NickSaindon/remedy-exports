@@ -12,6 +12,7 @@ handler.post(async (req, res) => {
     await db.disconnect();
     if (user && bcyrpt.compareSync(req.body.password, user.password)) {
         const token = signToken(user);
+        user.password = ''
         res.send({ 
             token,
             _id: user._id,
