@@ -20,6 +20,7 @@ handler.put(async (req, res) => {
     product.name = req.body.name;
     product.slug = req.body.slug;
     product.price = req.body.price;
+    product.color = req.body.color;
     product.imageOne = req.body.imageOne;
     product.imageTwo = req.body.imageTwo;
     product.imageThree = req.body.imageThree;
